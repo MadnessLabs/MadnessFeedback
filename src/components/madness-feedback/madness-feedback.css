@@ -1,0 +1,64 @@
+madness-feedback {
+    --ion-color-primary: #0095ff;
+    --ion-color-md-primary: #0095ff;
+    display: block;
+    max-width: 400px;
+    margin: 15px auto;
+    width: 90%;
+    position: relative;
+}
+
+madness-feedback ion-card {
+    padding: 15px;
+}
+
+madness-feedback .item-md {
+    padding-left: 0;
+}
+
+madness-feedback .input-clear-icon {
+    display: none !important;
+}
+
+madness-feedback h2.form-title {
+    color: var(--ion-placeholder-text-md-color);
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+madness-feedback ion-button {
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+}
+
+madness-feedback ion-button:hover {
+    cursor: pointer;
+}
+
+madness-feedback ion-button:hover svg {
+    color: var(--ion-color-primary);
+}
+
+madness-feedback ion-icon, madness-feedback ion-icon svg {
+    height: 30px;
+    width: 30px;
+}
+
+madness-feedback ion-icon {
+    cursor: pointer;
+    color: var(--ion-placeholder-text-md-color);
+}
+
+madness-feedback .logo {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-733 125 960 720"><g id="logo" data-name="Logo" transform="translate(-753)"><path fill="#0095ff" class="logo-m" d="M-8785,726l195-180.5L-8460,659l130-113.5L-8135,726h155l-309-267h-90l-81,77-90-77h-90l-300,267" transform="translate(8960 -334)"/> <path fill="#00e700" class="logo-l" d="M-8940,726h155l325,307,325-211h155l-480,357Z" transform="translate(8960 -334)"/></g></svg>');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
