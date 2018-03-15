@@ -4,12 +4,15 @@
 
 This is a simple feedback component for use in Madness Labs projects.
 
+## Preview
+![image](https://user-images.githubusercontent.com/4184680/37487575-e21be85c-285f-11e8-9ebb-c88f12f9bdb6.png)
+
 ## Using Component
 
 ### Script tag
 
 - [Publish to NPM](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-- Put a script tag similar to this `<script src='https://unpkg.com/madnessfeedback@0.0.1/dist/madnessfeedback.js'></script>` in the head of your index.html
+- Put a script tag similar to this `<script src='https://unpkg.com/madnessfeedback@0.0.2/dist/madnessfeedback.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
@@ -17,9 +20,9 @@ This is a simple feedback component for use in Madness Labs projects.
 - Put a script tag similar to this `<script src='node_modules/madnessfeedback/dist/madnessfeedback.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
-### In a stencil-starter app
+### In a StencilJS App
 - Run `npm install madnessfeedback --save`
-- Add `{ name: 'madness-feedback' }` to your [collections](https://github.com/ionic-team/stencil-starter/blob/master/stencil.config.js#L5)
+- Add `import 'madnessfeedback';` to the top of your main app tsx file.
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ---
